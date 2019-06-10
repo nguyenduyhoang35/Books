@@ -39,6 +39,14 @@ class App extends Component {
                                 </NavLink>
                             </li>
                             <li onClick={this.actionSlider.bind(this)}>
+                                <NavLink exact to={'/books'} className="menu-item">
+                                    <div className="menu-link">
+                                        <i className="fa fa-book" style={{fontSize: '0.78rem'}}/>
+                                        <span className="title-menu">Books</span>
+                                    </div>
+                                </NavLink>
+                            </li>
+                            <li onClick={this.actionSlider.bind(this)}>
                                 <NavLink exact to={'/store'} className="menu-item">
                                     <div className="menu-link">
                                         <i className="fa fa-store" style={{fontSize: '0.78rem'}}/>
